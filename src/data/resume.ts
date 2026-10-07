@@ -1,8 +1,6 @@
 export const profile = {
   name: 'Adila Biswas',
   tagline: 'Computer Science · Data Analyst · Fullstack Developer',
-  location: 'Newnan, Georgia',
-  phone: '(678) 378-5928',
   email: 'adilabiswas2003@gmail.com',
   github: 'https://github.com/abiswas2003',
   linkedin: 'https://www.linkedin.com/in/adila-biswas-2b698921b/',

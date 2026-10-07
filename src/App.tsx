@@ -276,8 +276,6 @@ export default function App() {
             </div>
             <div className="contact-block">
               <a href={`mailto:${profile.email}`}>{profile.email}</a>
-              <a href={`tel:+16783785928`}>{profile.phone}</a>
-              <p>{profile.location}</p>
               <div className="contact-links">
                 <a href={profile.github} target="_blank" rel="noreferrer">
                   GitHub
