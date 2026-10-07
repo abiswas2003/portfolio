@@ -1,0 +1,63 @@
+:root {
+  /* Sampled from Usagi's comforter pattern */
+  --bedding: #f7d5df;
+  --panel: #f3c0cf;
+  --panel-edge: #c45a7a;
+  --star-pink: #e08aa8;
+  --berry: #7a1f4a;
+  --berry-soft: #9b3563;
+  --lemon: #f2d24a;
+  --lemon-deep: #e6c020;
+  --cream: #fff9fb;
+  --white: #ffffff;
+  --muted: #8a4464;
+  --lace: rgba(122, 31, 74, 0.18);
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Nunito', system-ui, sans-serif;
+  color: var(--berry);
+  background: var(--bedding);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bedding);
+  background-image: url('/assets/usagi-comforter.jpg');
+  background-repeat: repeat;
+  background-size: 420px auto;
+  background-attachment: fixed;
+  background-position: top left;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+}
