@@ -1,6 +1,6 @@
 # Adila Biswas — Personal Portfolio
 
-Sailor Moon–inspired personal website for Adila Biswas, built with Vite, React, and TypeScript.
+Sailor Moon–inspired personal website for me, built with Vite, React, and TypeScript.
 
 ## Run locally
 
